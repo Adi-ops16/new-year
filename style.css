@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 1536px;
+}
+
+/* font-style */
+
+.open-sans-merrie {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} 
+
+
+/* shared-styles */
+section{
+    margin-bottom: 120px;
+}
+
+
+  
+/* first-poster-style */
+.first-poster{
+    background-image: linear-gradient(to bottom,rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)),
+    url(images/new-year.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 140px;
+    border-radius: 16px;
+}    
+.main-tytle{
+    padding:177px 344px ;
+    text-align: center;
+}
+
+section div h4{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+section div h2{
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+/* second-poster-styles */
+.second-poster{
+    text-align: center;
+}
+
+.second-poster-tytle{
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: bold;
+}
+.second-poster-sub-tytle{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight:500;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+.second-poster-para{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 48px;
+}
+.second-poster-img{
+    width: 802px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/* third-poster-styles */
+
+.third-poster{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+     background-image: linear-gradient(to right,rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)),
+    url(/images/party.png);
+    width: 1250px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    margin-left: 140px;
+}
+
+.third-poster-tytle{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.third-poster-sub-tytle{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.third-poster-para{
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.third-poster-link{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+/* fourth-poster */
+.fourth-poster{
+    background-image: linear-gradient(to bottom,rgb(255, 225, 225),rgba(255, 0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 120px 140px 100px;
+    border-radius: 16px;
+}
+
+.fourth-poster-para{
+    font-size: 32px;
+    font-weight: 700;
+    color: #070211;
+    text-align: center;
+}
+.fourth-para-style{
+    color: #FF0000;
+}
+.fourth-poster-btn{
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border-radius: 8px;
+    border: none;
+    margin: 48px 110px;
+}
+
+/* fifth-poster-styles */
+.fifth-poster-main{
+    margin: 120px 140px;
+}
+
+.fifth-poster-main{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    gap: 80px;
+}
+
+.fifth-para-sub-tytle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+
+.fifth-para-tytle{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-top: 16px;
+}
+.fifth-pera{
+    color: #070211;
+    font-size: 20px;
+    margin-top: 22px;
+}
+
+.fifth-poster-img{
+    width: 364px;
+    height: 364px;
+    padding: 49.08px;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+}
+
+.fifth-para-tytle-two{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.fifth-para-two{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.fifth-para-img{
+    width: 140px;
+    height: 140px;
+    margin-top: 43px;
+}
+
+/* sixth-tytle */
+
+
+.sixth-para-sub-tytle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+}
+
+.sixth-para-tytle{
+    font-size: 72px;
+    font-weight: bold;
+}
+.sixth-para-tytle-span{
+    color: #FF0000;
+}
+.sixth-para{
+    font-size: 20px;
+    font-weight: 500;
+    color: #070211;
+}
+.sixth-para-container{
+    text-align: center;
+    margin: 120px;
+}
+
+.sixth-poster-container{
+    background-image: url("images/line.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+
+/* seventh-style */
+.seventh-poster{
+    margin: 120px 125px;
+}
+.seventh-para-container{
+    margin-bottom: 48px;
+}
+.seventh-sub-tytle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.seventh-tytle{
+    color: #070211;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 16px;
+}
+.seventh-para{
+    color: #070211;
+    font-size: 20px;
+    margin-top: 22px;
+    
+}
+.seventh-poster-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 22px;
+}
+
+/* eight-poster */
+
+.eight-poster{
+    text-align: center;
+    margin: 120px 140px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+}
+.eight-tytle{
+    color: #070211;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+.eight-para{
+    font-size: 20px;
+    font-weight: 500;
+    color: #070211;
+    margin-top: 22px;
+} 
+.msg{
+    display: flex;
+    justify-content: center;
+    gap: none;
+}
+#mail{
+    margin-top: 80px;
+}
+
+input{
+    font-size: 1.25em;
+    color: #070211;
+    padding: 25px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    background-color: #FFFFFF;
+    width: 400px;
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+button{
+    font-size: 1.25em;
+    color:#FFFFFF;
+    padding: 25px;
+    border-radius:0 50px 50px 0;
+    border: none;
+    background-color: #FF0000;
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+/* foooter-styles */
+footer{
+   background-color:#070211;
+   margin-top: 120px;
+}
+.footer-para{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.dbl-line{
+    display: flex;
+    justify-content: space-between;
+}
+.first-part{
+    padding: 120px 140px;
+}
+hr{
+    color: #FFFFFF;
+    margin: 0 120px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 24px auto;
+}
+
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    padding:120px;
+}
