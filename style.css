@@ -96,7 +96,7 @@ section div h2{
     align-items: center;
     gap: 40px;
      background-image: linear-gradient(to right,rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)),
-    url("/images/party.png");
+    url('images/party.png');
     width: 1250px;
     height: 600px;
     background-size: cover;
