@@ -352,9 +352,9 @@ footer{
 .first-part{
     padding: 120px 140px;
 }
-hr{
-    color: #FFFFFF;
+footer hr{
     margin: 0 120px;
+    border: 1px rgba(255, 255, 255, 0.15) solid;
 }
 .social-icons{
     display: flex;
